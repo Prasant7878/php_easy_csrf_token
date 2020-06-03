@@ -1,3 +1,4 @@
+<!-- Step 2 - Put Token in hidden form field -->
 <?php 
 session_start();
 ?>

@@ -1,3 +1,4 @@
+<!-- Step 1 - Generate Token -->
 <?php 
 session_start();
 if (empty($_SESSION['token'])){
@@ -5,6 +6,4 @@ if (empty($_SESSION['token'])){
 }
 
 print_r($_SESSION);
-
-
 ?>
